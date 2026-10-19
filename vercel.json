@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "boaflow.co" }], "destination": "https://boaflow.ai/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.boaflow.co" }], "destination": "https://boaflow.ai/:path*", "permanent": true }
+  ]
+}
